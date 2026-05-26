@@ -1,14 +1,13 @@
-# EXP 5  SPEECH RECOGNITION USING SCILAB
+## EXP 5  SPEECH RECOGNITION USING SCILAB
 
-## AIM: 
-
+### AIM: 
 To perform and verify speech recognition using SCILAB. 
 
-## APPARATUS REQUIRED: 
+### APPARATUS REQUIRED: 
 PC installed with SCILAB and Python IDE. 
 
-## PROGRAM : 
-### PYTHON CODE
+### PROGRAM : 
+#### PYTHON CODE
 ```Python
 import speech_recognition as sr
 r = sr.Recognizer()
@@ -24,7 +23,7 @@ except Exception as e:
 with open("output.txt", "w") as f:
     f.write(text)
 ```
-### SCILAB CODE
+#### SCILAB CODE
 ```python
 clc;
 clear;
@@ -38,11 +37,11 @@ text = mgetl("output.txt");
 disp("Recognized Speech:");
 disp(text);
 ```
-### AUDIO 
+#### AUDIO 
 [harvard.wav](https://github.com/user-attachments/files/26216204/harvard.wav)
 
-## OUTPUT: 
+### OUTPUT: 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/fcac0d79-a48a-400e-9b7e-ddbff745e6b1" />
 
-## RESULT: 
+### RESULT: 
 Thus the speech recognition using SCILAB and Python IDE was performed and verified.
