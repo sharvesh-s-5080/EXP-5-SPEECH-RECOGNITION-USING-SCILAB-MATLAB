@@ -1,14 +1,14 @@
 # EXP 5  SPEECH RECOGNITION USING SCILAB
 
-### AIM: 
+## AIM: 
 
 To perform and verify speech recognition using SCILAB. 
 
-### APPARATUS REQUIRED: 
+## APPARATUS REQUIRED: 
 PC installed with SCILAB and Python IDE. 
 
 ## PROGRAM : 
-PYTHON CODE
+### PYTHON CODE
 ```Python
 import speech_recognition as sr
 r = sr.Recognizer()
@@ -24,7 +24,7 @@ except Exception as e:
 with open("output.txt", "w") as f:
     f.write(text)
 ```
-SCILAB CODE
+### SCILAB CODE
 ```python
 clc;
 clear;
